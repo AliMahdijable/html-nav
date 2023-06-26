@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    nav {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+      margin: auto;
+      justify-content: space-around;
+      /* background: red; */
+      padding: 20px;
+      background-color: darkslategray;
+    }
+
+    li {
+      list-style: none;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      text-shadow: -2px -1px 8px BLACK;
+      font-family: fantasy;
+      border: 1px solid;
+      padding: 3px 10px 3px 10px;
+      border-radius: 10px;
+      background-color: #4d7373cc;
+      transition: 1s;
+    }
+
+    li:hover {
+      color: #4d7373cc;
+      background-color: white;
+      text-shadow: none;
+    }
+
+    .card {
+      width: 200px;
+      margin: auto;
+      background: #f7f7f7;
+      height: 150px;
+      border-radius: 20px;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      margin: 10px;
+      /* empty-cells: show; */
+      box-shadow: inset 0px -4px 10px 0px #505050;
+      transition: all 1s;
+    }
+    .card:hover {
+      box-shadow: 0px -4px 10px 0px #2c2c2c;
+      background: #c1d0d0;
+    }
+    .containter {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
+  <body>
+    <nav>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contatct</li>
+    </nav>
+    <section class="containter">
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+      <div class="card">
+        <h2>Taital</h2>
+        <p>test</p>
+      </div>
+    </section>
+  </body>
+</html>
